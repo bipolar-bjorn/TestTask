@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  app:
+    build: ./
+    command: sh -c "sleep 20s ; python3 ./app.py"
+    depends_on:
+      - db
+  db:
+    image: mysql:8.0.31
+    restart: always
+    environment:
+      MYSQL_DATABASE: 'db'
+      MYSQL_USER: 'my_user'
+      MYSQL_PASSWORD: 'my_password'
+      MYSQL_ROOT_PASSWORD: 'my_root_password'
+    ports:
+      - '3306:3306'
