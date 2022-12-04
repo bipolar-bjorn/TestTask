@@ -12,4 +12,13 @@ test-repository for a hiring trainee task
 - Show the minimal and the maximum age of athletes for each Olympic games
 
 #### Analytic's part
-#####
+##### Check a dataset for outliers and for general quality:
+- Are there mistakes in the dataset?
+- Are there data gaps in the dataset?
+- What to do if there is no data or it is incorrect?
+##### Analyze who is the most successful in history of Olympic games
+##### Analyze the medal distribution by country and visualize it
+##### Is there a dependency between physical shape (height/weight) and number of wins in one or another discipline?
+##### Who is the most persistent among the participants(the longest way to the gold medal)
+##### How did the average age change over the time?
+##### Build a retention plot for a competition participance( What perentage of athletes come back every next Olympic game?)
